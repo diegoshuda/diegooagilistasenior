@@ -11,6 +11,13 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'dist'
-  }
+    outDir: 'dist',
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html')
+      }
+    }
+  },
+  publicDir: 'public'
 });
