@@ -2,39 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Professional Portfolio Design System for Product Owner/Scrum Master */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Professional Color Palette */
+    --background: 245 250 255 1; /* Light blue-gray */
+    --foreground: 213 20% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 255 255 255 1;
+    --card-foreground: 213 20% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 255 255 255 1;
+    --popover-foreground: 213 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 213 85% 45%; /* Professional blue */
+    --primary-foreground: 255 255 255 1;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 213 30% 95%;
+    --secondary-foreground: 213 20% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 213 20% 96%;
+    --muted-foreground: 213 15% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 142 76% 45%; /* Success green */
+    --accent-foreground: 255 255 255 1;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 255 255 255 1;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 213 20% 90%;
+    --input: 213 20% 94%;
+    --ring: 213 85% 45%;
+
+    /* Professional gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(213 85% 45%), hsl(213 85% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(213 85% 45%), hsl(225 85% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(255 255 255 1), hsl(213 20% 98%));
+
+    /* Professional shadows */
+    --shadow-card: 0 4px 20px -8px hsl(213 85% 45% / 0.15);
+    --shadow-elevated: 0 8px 30px -12px hsl(213 85% 45% / 0.25);
+
+    /* Chart colors */
+    --chart-primary: 213 85% 45%;
+    --chart-secondary: 142 76% 45%;
+    --chart-accent: 45 93% 47%;
+    --chart-muted: 213 15% 70%;
 
     --radius: 0.5rem;
 
