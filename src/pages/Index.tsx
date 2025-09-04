@@ -9,7 +9,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background">
       <HeroSection />
       <MetricsOverview />
       <BurndownChart />
