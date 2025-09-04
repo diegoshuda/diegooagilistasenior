@@ -13,5 +13,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/diegooagilista/'
-}); 
+  base: '/diegooagilista/',
+  build: {
+    outDir: 'dist'
+  }
+});
