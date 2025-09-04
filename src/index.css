@@ -7,17 +7,17 @@
 @layer base {
   :root {
     /* Professional Color Palette */
-    --background: 245 250 255 1; /* Light blue-gray */
+    --background: 210 40% 98%; /* Light blue-gray */
     --foreground: 213 20% 15%;
 
-    --card: 255 255 255 1;
+    --card: 0 0% 100%;
     --card-foreground: 213 20% 15%;
 
-    --popover: 255 255 255 1;
+    --popover: 0 0% 100%;
     --popover-foreground: 213 20% 15%;
 
     --primary: 213 85% 45%; /* Professional blue */
-    --primary-foreground: 255 255 255 1;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 213 30% 95%;
     --secondary-foreground: 213 20% 15%;
@@ -26,10 +26,10 @@
     --muted-foreground: 213 15% 50%;
 
     --accent: 142 76% 45%; /* Success green */
-    --accent-foreground: 255 255 255 1;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 255 255 255 1;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 213 20% 90%;
     --input: 213 20% 94%;
@@ -38,7 +38,7 @@
     /* Professional gradients */
     --gradient-primary: linear-gradient(135deg, hsl(213 85% 45%), hsl(213 85% 55%));
     --gradient-hero: linear-gradient(135deg, hsl(213 85% 45%), hsl(225 85% 55%));
-    --gradient-card: linear-gradient(145deg, hsl(255 255 255 1), hsl(213 20% 98%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(213 20% 98%));
 
     /* Professional shadows */
     --shadow-card: 0 4px 20px -8px hsl(213 85% 45% / 0.15);
