@@ -9,7 +9,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen" style={{ backgroundColor: 'hsl(210 40% 98%)' }}>
       <HeroSection />
       <MetricsOverview />
       <BurndownChart />
